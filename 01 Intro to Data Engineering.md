@@ -1,6 +1,4 @@
-# ST1501 Data Engineering 
-
-## Topic 1: Introduction to Data Engineering
+# Topic 1: Introduction to Data Engineering
 
 1. [What is Data?](#what-is-data)
 2. [How is Data generated?](#how-is-data-generated)
