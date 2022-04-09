@@ -57,6 +57,20 @@ The main distinction between the two systems is in their names: analytical vs. t
 
 ### Data Formats
 
+![](https://i.imgur.com/9mTgpcx.png)
+
+1) __Structured Data__ 
+    - Structured data is data whose elements are **addressable for effective analysis**. It has been **organized into a formatted repository** (fixed fields) that is typically a database. It **concerns all data which can be stored in database SQL** in a table with **rows and columns**. 
+    - Data are most processed and **simplest way to manage information** (e.g. Relational data).
+ 
+2) __Semi-structured Data__ 
+    - Semi-structured data is information that does not reside in a relational database (no fixed fields) but has **some organizational properties** that make it easier to analyze. With some processes, you can store them in the relation database, but **Semi-structured exist to ease space** (e.g. XML, JSON data). 
+
+3) __Unstructured Data__ 
+    - Unstructured data is **not organized in a predefined manner/does not have a predefined schema**, thus it is not a good fit for a mainstream relational database. There are alternative platforms for storing and managing such data, it is increasingly prevalent in IT systems and is used by organizations in a variety of business intelligence and analytics applications (e.g. Word, PDF, Text, Media logs).
+
+
+
 
 
 
