@@ -63,6 +63,8 @@ A table **MUST** satisfy the <u>**SIX properties of a relation.**</u>
 5) Order of tuples or attributes in a relation does not matter
 6) Each tuple (record/row) in a relation must be unique 
 
+---
+
 ### Entity Integrity Rules
 
 1) Make sure that each tuple in a table is unique.
@@ -90,6 +92,8 @@ A table **MUST** satisfy the <u>**SIX properties of a relation.**</u>
 Referential Integrity Rule in DBMS is based on Primary and Foreign Key. The rule defines that **a foreign key have a matching primary key**. 
 
 ![](https://i.imgur.com/EAKfPdG.png)
+
+---
 
 ### Entity Relationship Diagram
 
@@ -133,6 +137,8 @@ Each entity is identified by a name and a list of attributes.
     - A cart must contain one or many products.
     - A cart may be queuing for one or more products that are out-of stock.
 
+---
+
 ### Structural Constraints
 
 Cardinality Ratios and Participation Constraints taken together are called Structural Constraints. The name constraints refer to the fact that such limitations must be imposed on the data, for the DBMS system to be consistent with the requirements.
@@ -165,5 +171,32 @@ Participation Constraints tell us that that the participation in a relationship 
 
 When each entity in an entity set participates in a relation, it is called Total Participation. However, when all entities in the given entity set do not participate in a relation, it is called Partial Participation.
 
+Extras:
+
+![](https://i.imgur.com/Nvn1PFz.png)
+
+---
+
 ### Normalization
+
+
+Normalization is the process of organizing data in a database. This includes creating tables and establishing relationships between those tables according to rules designed both to protect the data and to make the database more flexible by eliminating redundancy and inconsistent dependency.
+
+**Unnormalized Form (UNF/0NF)**
+
+It is the simplest database model also known as non-first normal form (NF2).A UNF model will suffer problems like data redundancy thus it lacks the efficiency of database normalization.
+
+**First Normal Form (1NF)**
+
+If a relation contain composite or multi-valued attribute, it violates first normal form or a relation is in first normal form if it does not contain any composite or multi-valued attribute. A relation is in first normal form if every attribute in that relation is singled valued attribute.
+
+> Example 1 – Relation STUDENT in table 1 is not in 1NF because of multi-valued attribute STUD_PHONE. Its decomposition into 1NF has been shown in table 2.
+
+![](https://i.imgur.com/gS5RGUh.png)
+
+- Eliminate repeating groups in individual tables.
+- Create a separate table for each set of related data.
+- Identify each set of related data with a primary key.
+
+**Anomalies**
 
