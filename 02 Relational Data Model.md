@@ -179,24 +179,14 @@ Extras:
 
 ### Normalization
 
-
 Normalization is the process of organizing data in a database. This includes creating tables and establishing relationships between those tables according to rules designed both to protect the data and to make the database more flexible by eliminating redundancy and inconsistent dependency.
 
-**Unnormalized Form (UNF/0NF)**
+Playlist of video explainations: [Database Concepts - Normalization Process](https://youtube.com/playlist?list=PLGQi2wV1jb3-FDXkgPg-MIC_YWzvTlDzt)
 
-It is the simplest database model also known as non-first normal form (NF2).A UNF model will suffer problems like data redundancy thus it lacks the efficiency of database normalization.
+Normalization Summary:
 
-**First Normal Form (1NF)**
+![](https://i.imgur.com/V6TfH2U.png)
 
-If a relation contain composite or multi-valued attribute, it violates first normal form or a relation is in first normal form if it does not contain any composite or multi-valued attribute. A relation is in first normal form if every attribute in that relation is singled valued attribute.
-
-> Example 1 – Relation STUDENT in table 1 is not in 1NF because of multi-valued attribute STUD_PHONE. Its decomposition into 1NF has been shown in table 2.
-
-![](https://i.imgur.com/gS5RGUh.png)
-
-- Eliminate repeating groups in individual tables.
-- Create a separate table for each set of related data.
-- Identify each set of related data with a primary key.
-
-**Anomalies**
-
+- Normalisation process splits the information across several relations
+- Aims to establish relations that are more efficient when we perform insert, update and delete records operations on the relation
+- A process of grouping attributes into <u>**well-structured relations**</u> that allow users to <u>**insert, delete and modify**</u> rows in these relations <u>**without errors or inconsistencies**</u> resulting from these operations.
