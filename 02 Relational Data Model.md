@@ -187,6 +187,28 @@ Normalization Summary:
 
 ![](https://i.imgur.com/V6TfH2U.png)
 
+![](https://i.imgur.com/qwOgfGo.png)
+
 - Normalisation process splits the information across several relations
 - Aims to establish relations that are more efficient when we perform insert, update and delete records operations on the relation
 - A process of grouping attributes into <u>**well-structured relations**</u> that allow users to <u>**insert, delete and modify**</u> rows in these relations <u>**without errors or inconsistencies**</u> resulting from these operations.
+
+**Functional Dependency**
+
+- A functional dependency is a constraint that specifies the relationship between two sets of attributes where one set can accurately determine the value of other sets. 
+
+- It is denoted as *X → Y*, where *X* is a set of attributes that is capable of determining the value of *Y*. 
+
+- The attribute set on the left side of the arrow, *X* is called Determinant, while on the right side, *Y* is called the Dependent. 
+
+- Occurs when the value of an attribute is fully dependent upon another attribute' value.
+
+- A relation is said to be in 2NF if all non-key attributes are fully dependent on whole of its primary key.
+
+**Transitive Functional Dependency**
+
+- Dependent is indirectly dependent on determinant.
+>i.e. If a → b & b → c, then according to axiom of transitivity, a → c. 
+
+- This functional dependency is between two (or more) non-key attributes in a relation.
+- A relation is said to be in 3NF if there is <u>**no functional dependencies among non-key attributes**</u>.
