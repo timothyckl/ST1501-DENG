@@ -193,6 +193,10 @@ Normalization Summary:
 - Aims to establish relations that are more efficient when we perform insert, update and delete records operations on the relation
 - A process of grouping attributes into <u>**well-structured relations**</u> that allow users to <u>**insert, delete and modify**</u> rows in these relations <u>**without errors or inconsistencies**</u> resulting from these operations.
 
+Anomalies Summary:
+
+![](https://i.imgur.com/xk5O9kQ.png)
+
 **Functional Dependency**
 
 - A functional dependency is a constraint that specifies the relationship between two sets of attributes where one set can accurately determine the value of other sets. 
