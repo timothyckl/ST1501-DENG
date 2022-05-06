@@ -197,6 +197,8 @@ Anomalies Summary:
 
 ![](https://i.imgur.com/xk5O9kQ.png)
 
+Video explanation on anomalies: [Normalization Anomalies](https://www.youtube.com/watch?v=UF0UHCX-z0E)
+
 **Functional Dependency**
 
 - A functional dependency is a constraint that specifies the relationship between two sets of attributes where one set can accurately determine the value of other sets. 
